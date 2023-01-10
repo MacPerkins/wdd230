@@ -1,12 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Wancho&family=Play:wght@700&family=Source+Sans+Pro&display=swap');
 
 header {
-    display:flex;
+    display:inline;
     background-color: #33B6E8;
     font-family: 'Source Sans', sans-serif;
     border: 1px solid black;
-    align-items: center;
-    border-radius: 10px;
 }
 
 header h1 {
@@ -18,15 +16,16 @@ header h1 {
 }
 
 header img {
-    border-radius: 10px;
+    border-radius: 5px;
     border: 2px solid black;
+    align-content: center;
 }
 
 body {
     display: inline;
     background-color: #fcfbfb;
     font-family: 'Noto Sans Wancho', sans-serif;
-    font-size: 22px;
+    font-size: 10px;
     margin: 0;
     padding: 0;
     align-self: center;
@@ -44,7 +43,7 @@ footer {
     color:black;
     padding: 25px 50px;
     margin-top: 100px;
-    font-size: 1.5em;
+    font-size: 0.75em;
     display: flex;
     justify-content: space-around;
     align-items: center;
