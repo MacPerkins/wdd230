@@ -1,0 +1,25 @@
+@media only screen and (min-width: 1024px) {
+    body {
+        max-width: 80%;
+        margin: auto;
+    }
+    h1 {
+        font-size: 3em;
+    }
+    h2 {
+        font-size: 2.75em;
+    }
+    main h2 {
+        font-size: 2.5em;
+        font: bold;
+    }
+    p, a, h3 {
+        font-size: 2em;
+    }
+    .home-grid {
+     grid-template-columns: 1fr 1fr 1fr;   
+    }
+    .tab1, .tab2, .tab3 {
+        grid-column: auto;
+    }
+}

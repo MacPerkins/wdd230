@@ -1,0 +1,24 @@
+@media only screen and (min-width: 40em) {
+    h2 {
+        font-size: 1.5em;
+    }
+    .home-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .tab3 {
+        grid-column: 1 / -1;
+    }
+    h1 {
+        font-size: 3em;
+    }
+    h2 {
+        font-size: 2.5em;
+    }
+    main h2 {
+        font-size: 2em;
+    }
+    p, a, h3 {
+        font-size: 1.5em;
+    }
+}
