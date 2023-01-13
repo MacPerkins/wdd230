@@ -49,6 +49,9 @@ main img {
 main a {
     display: inline;
 }
+footer {
+    border-top: 2px solid black;
+}
 footer, footer p {
     background-color: royalblue;
     border-radius: 10px;
