@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Wancho&family=Play:wght@700&family=Source+Sans+Pro&display=swap');
-
 header img, #tab1 img {
     width: 100%;
 }
@@ -12,8 +10,8 @@ header, nav {
 
 nav {
     width: 100%;
-    background-color: rgba(14, 145, 221, 0.767);
-    box-shadow: 0 0 25px rgba(0, 0, 0, 0.452);
+    background-color: #5965F9;
+
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -25,11 +23,19 @@ nav a {
     text-decoration: none;
     color: rgb(0, 0, 0);
     padding: .75em;
-    font-size: 1.75em;
+    font-size: 1.5em;
+}
+
+main h1, main h2 {
+    font-family: 'Play', sans-serif;
+}
+
+main, body {
+    background-color: whitesmoke;
 }
 
 nav a:hover {
-    background-color: aqua;
+    background-color: #46b5e0;
 }
 
 header, nav, main, footer {
@@ -39,7 +45,6 @@ header, nav, main, footer {
 
 header,
 footer {
-    background-color: #49c9e9;
 	display: flex;
 	flex-flow: column;
 	align-items: center;
@@ -47,23 +52,65 @@ footer {
 	padding: 5px;
 }
 
-main h2 {
-    font-size: 1.5em;
+.last-modified {
+    text-align: center;
 }
 
-h2, h3 {
+footer {
+    background-color: #5965F9;
+}
+
+main h1 {
+    font-size: 1.75em;
+}
+
+h1, h2 {
     padding: .5rem;
     text-align: center;
 }
 
-h3 {
+h2 {
     font-size: 1.25em;
 }
 
 p {
-    font-family: 'Noto Sans Wancho', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
     font-size: 1em;
     text-align: left;
     padding: 5px;
     white-space: pre-line;
 }
+
+.colors {
+    width: 100%;
+    min-width: 350px;
+    margin: 30px auto;
+    text-align: center;
+  }
+  .colors th {
+    background-color: #999;
+  }
+
+  .primary {
+    background-color: #5965F9;
+  }
+  .secondary {
+    background-color: #46b5e0;
+  }
+  .accent1 {
+    background-color: whitesmoke;
+  }
+  .accent2{
+    background-color: #61CAF2;
+  }
+  
+  p.colored {
+    background-color: #61CAF2;
+    margin: 50px auto;
+    box-shadow: 0 0 10px #3e9abe;
+  }
+
+  .colors td {
+    width: 25%;
+    height: 3em;
+  }

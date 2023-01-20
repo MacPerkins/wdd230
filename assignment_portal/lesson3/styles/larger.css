@@ -1,0 +1,40 @@
+@media (min-width: 37.5em) {
+	nav {
+		flex-direction: row;
+	}
+	
+	nav a {
+		font-size: 1.75rem;
+		width: 100%;
+	}
+
+	main picture {
+		display: block;
+	}
+
+	header {
+		align-items: center;
+		align-content: center;
+	}
+
+	main h1 {
+		font-size: 2.5em;
+	}
+
+	main h2 {
+		font-size: 2em;
+	}
+
+	main p, .colors {
+		font-size: 1.75em;
+	}
+
+	footer p {
+		font-size: 2.5em;
+	}
+
+	header, nav, main, footer {
+		max-width: 1800px;
+		margin: 0 auto;
+	}
+}
