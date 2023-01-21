@@ -40,7 +40,7 @@ nav a:hover {
 
 header, nav, main, footer {
     max-width: 960px;
-    margin: 0 auto;
+    margin: 15px;
 }
 
 header,
