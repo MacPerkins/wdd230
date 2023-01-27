@@ -152,6 +152,11 @@ footer p {
     margin: 3px;
 }
 
+footer #location-map {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
 footer #box div {
     padding: 3px;
 }
