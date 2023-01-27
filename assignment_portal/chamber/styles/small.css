@@ -1,0 +1,174 @@
+nav button {
+    width: 100%;
+    margin: .2rem 2vw;
+    background: transparent;
+    border: none;
+    font-size: 2rem;
+    color: rgb(0, 0, 0);
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li a {
+    display: block;
+    padding: .8rem 2vw;
+    text-decoration: none;
+    color: black;
+    border-top: 1px solid rgba(0, 0, 0, 0.356);
+}
+
+nav a:hover {
+    background-color: #46b5e0;
+}
+
+nav ul {
+    display: none;
+}
+
+nav ul.open {
+    display: block;
+}
+
+#hamburgerBtn span:nth-child(1) {display: block;}
+#hamburgerBtn span:nth-child(2) {display: none;}
+
+#hamburgerBtn.open span:nth-child(1) {display: none;}
+#hamburgerBtn.open span:nth-child(2) {display: block;}
+
+#main-header a img {
+    width: 50px;
+    height: 100px;
+}
+
+#main-header a, #main-header div {
+    display: flex;
+    text-decoration: none;
+    color: black;
+    align-items: center;
+    padding: 5px;
+}
+
+#main-header .social-link img {
+    display: flex;
+    flex-direction: row;
+    width: 25px;
+    height: 25px;
+    align-self: center;
+}
+
+#main-header h1 {
+    white-space: pre-line;
+    font-size: 1rem;
+}
+
+#main-header, nav {
+    display: flex;
+    background-color: #5965F9;
+    font-family: 'Play', sans-serif;
+    padding: 5px;
+}
+
+header {
+    background-color: #5965F9;
+    font-family: 'Play', sans-serif;
+}
+
+.current-date {
+    background-color: #5965F9;
+    text-align: center;
+    padding: 10px;
+    border-top: 1px solid black;
+}
+
+nav {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    justify-content: center;
+}
+
+.tab1, .tab2, .tab3, .tab4, .tab5, .sub-tab1, .sub-tab2, .sub-tab3 {
+    border: 1px solid black;
+    background-color: #61c9f2af;
+    padding: 10px;
+    margin: 5px;
+}
+
+.sub-tab3 {
+    display: none;
+}
+
+.tab6 {
+    display: none;
+    grid-area: 4 / 1 / 5 / 4;
+    border: 1px solid black;
+    background-color: #61c9f2af;
+    padding: 10px;
+    margin: 5px;
+}
+
+main h1 {
+    font-family: 'Play', sans-serif;
+    text-align: left;
+}
+
+main, body {
+    background-color: whitesmoke;
+}
+
+
+header, nav, main, footer {
+    max-width: 960px;
+    margin: 15px;
+}
+
+footer {
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+    text-align: center;
+	padding: 5px;
+    background-color: #5965F9;
+    font-family: 'Play', sans-serif;
+}
+
+footer img {
+    width: 50px;
+    height: 100px;
+}
+
+footer #box2  {
+    margin: 10px;
+    border-top: 1px solid black;
+    font-size: 1em;
+}
+
+footer p {
+    margin: 3px;
+}
+
+footer #box div {
+    padding: 3px;
+}
+
+main h1 {
+    padding: .5rem;
+    font-size: 1.25rem;
+}
+
+footer #box2 #larger {
+    display: none;
+}
+
+main p {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1em;
+    text-align: left;
+    padding: 5px;
+    white-space: pre-line;
+}

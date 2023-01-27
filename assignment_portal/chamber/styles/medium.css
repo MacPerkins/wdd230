@@ -1,0 +1,106 @@
+@media only screen and (min-width: 35em) {
+    nav {
+        margin-left: 0;
+    }
+
+    nav button {
+        align-self: center;
+    }
+
+    #main-header h1 {
+        padding: 20px;
+        font-size: 1.5rem;
+    }
+
+    #main-header {
+        justify-content: space-between;
+    }
+
+    #main-header a img {
+        width: 100px;
+        height: 150px;
+    }
+
+    #main-header div {
+        margin-right: 0;
+        margin-left: auto;
+    }
+
+    #main-header .social-link img {
+        width: 50px;
+        height: 50px;
+    }
+
+    body {
+        font-size: 1.5em;
+    }
+
+    .home-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(5, 1fr);
+        grid-column-gap: 5px;
+        grid-row-gap: 5px;
+    }
+
+    .tab1 {
+        grid-area: 1 / 1 / 2 / 4;
+    }
+
+    .tab4 {
+        grid-area: 2 / 1 / 3 / 4;
+    }
+
+    .tab5 {
+        grid-area: 3 / 1 / 4 / 4;
+        display: flex;
+    }
+
+    .tab6 {
+        display: block;
+    }
+
+    .tab2 {
+        grid-area: 5 / 1 / 6 / 3;
+    }
+
+    .tab3 {
+        grid-area: 5 / 3 / 6 / 4;
+    }
+
+    main h1 {
+        font-size: 1.5rem;
+    }
+
+    footer {
+        padding: 15px;
+    }
+
+    footer #box1, #sub-box3 {
+        display: flex;
+        font-size: 1.25em;
+    }
+
+    footer img {
+        float: left;
+        width: 100px;
+        height: 150px;
+    }
+
+    #sub-box2 {
+        align-self: center;
+    }
+
+    #box2 {
+        padding: 10px;
+    }
+
+    footer #box2 #larger {
+        display: block;
+    }
+
+    footer #box2 #small {
+        display: none;
+    }
+
+}
