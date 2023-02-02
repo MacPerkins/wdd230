@@ -62,6 +62,30 @@
 		margin: 0;
 	}
 
+	.tab1 h1  {
+		font-size: 2rem;
+		left: 50px;
+		top: 50px;
+	}
+
+	.tab1 button {
+		font-size: 2rem;
+		right: 50px;
+		bottom: 50px;
+	}
+
+	.tab2 h1, .tab3 h1, .tab4 h1, .tab5 h1 {
+        font-size: 2rem;
+    }
+    
+    .tab2 h2, .tab5 h2 {
+        font-size: 1.75rem;
+    }
+
+	.tab6 button {
+		font-size: 2rem;
+	}
+
 	main h1 {
 		font-size: 1.5rem;
 	}
