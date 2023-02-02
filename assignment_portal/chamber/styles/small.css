@@ -92,22 +92,84 @@ nav {
     justify-content: center;
 }
 
-.tab1, .tab2, .tab3, .tab4, .tab5, .sub-tab1, .sub-tab2, .sub-tab3 {
-    border: 1px solid black;
-    background-color: #61c9f2af;
+.tab2, .tab3, .tab4, .tab5, .sub-tab1, .sub-tab2, .sub-tab3 {
+    background-color: #46B5E0;
+    color: #030061;
     padding: 10px;
     margin: 5px;
+    box-shadow: 0 0 5px grey;
+}
+
+.tab3 div p, .tab3 h1, .tab5 h1, .tab5 h2, .tab5 div p, .tab4 h1, .tab4 p, .tab6 p {
+    text-align: center;
+    color: #030061;
+}
+
+.tab-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
 }
 
 .sub-tab3 {
     display: none;
 }
 
+.tab1 {
+    margin: 5px;
+    position: relative;
+    padding: 0;
+    box-shadow: 0 0 5px grey;
+}
+
+.tab1 h1 {
+    position: absolute;
+    font-weight: 1000;
+    top: 5px;
+    left: 5px;
+    padding: 25px;
+    font-size: 1rem;
+    text-shadow: 0 0 20px grey;
+}
+
+.tab1 button{
+    font-size: 1rem;
+    font-weight: 1000;
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    padding: 25px;
+    background-color: #46B5E0;
+    border-radius: 25px;
+    box-shadow: 0 0 20px black;
+    text-shadow: 0 0 20px grey;
+}
+
+.tab1 img {
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.tab2, .tab2 h1, .tab2 p, .tab2 a {
+    text-align: center;
+}
+
+.tab2 h1, .tab3 h1, .tab4 h1, .tab5 h1 {
+    font-size: 1.25rem;
+    text-shadow: 0 0 20px grey;
+}
+
+.tab2 h2, .tab5 h2 {
+    font-size: 1.15rem;
+}
+
 .tab6 {
     display: none;
     grid-area: 4 / 1 / 5 / 4;
-    border: 1px solid black;
-    background-color: #61c9f2af;
+    color: #030061;
+    background-color: #46B5E0;
     padding: 10px;
     margin: 5px;
 }
