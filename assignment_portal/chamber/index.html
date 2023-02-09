@@ -58,11 +58,11 @@
                 <h1>Weather</h1>
                 <div class="weather">
                     <img class="tab-img" src="images/weather.png" alt="sun behind clouds">
-                    <p>Tempurature: <span>45</span> F</p>
+                    <p><span id="temp">45</span> F</p>
                 </div>
                 <div>
-                    <p>Wind Speed: <span>15</span> mph</p>
-                    <p>Wind Chill: N/A</p>
+                    <p>Wind Speed: <span id="windspeed">15</span> mph</p>
+                    <p>Wind Chill: <span id="windChillFahrenheit">N/A</span> F</p>
                 </div>
             </div>
             <div class="tab4">
@@ -126,5 +126,6 @@
         </div>
     </footer>
     <script src="scripts/scripts.js"></script>
+    <script src="scripts/windchill.js"></script>
 </body>
 </html>

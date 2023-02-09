@@ -91,6 +91,11 @@
         font-size: 1.75rem;
     }
 
+	.tab3 .weather p {
+		font-size: 3rem;
+		font-weight: bold;
+	}
+
 	.tab6 button {
 		font-size: 2rem;
 	}
