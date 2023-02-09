@@ -16,7 +16,7 @@
     <header>
         <div id="main-header">
             <a href="index.html" id="logo_link">
-                <img src='images/default1.png' alt='Layton City Chamber logo'>
+                <img src='images/default1.webp' alt='Layton City Chamber logo'>
                     <h1>Layton
                         Chamber of Commerce
                     </h1>
@@ -42,7 +42,11 @@
             <div class="tab1">
                 <h1>Welcome to Layton</h1>
                 <button id="join-btn">Join the Chamber</button>
-                <img src="images/hero-image.jpeg" alt="Layton City">
+                <img src="images/hero-image1.jpg" alt="Layton City" sizes="50vw"
+                     srcset="images/small-hero.png 400w,
+                             images/medium-hero.png 800w,
+                             images/large-hero.png 1200w"
+                >
             </div>
             <div class="tab2">
                 <h1>Ribbon Cutting</h1>
@@ -52,9 +56,12 @@
             </div>
             <div class="tab3">
                 <h1>Weather</h1>
-                <img class="tab-img" src="images/weather.png" alt="sun behind clouds">
+                <div class="weather">
+                    <img class="tab-img" src="images/weather.png" alt="sun behind clouds">
+                    <p>Tempurature: <span>45</span> F</p>
+                </div>
                 <div>
-                    <p>Wind Speed: 15 mph</p>
+                    <p>Wind Speed: <span>15</span> mph</p>
                     <p>Wind Chill: N/A</p>
                 </div>
             </div>

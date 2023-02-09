@@ -1,4 +1,4 @@
-@media only screen and (min-width: 35em) {
+@media only screen and (min-width: 650px) {
     nav {
         margin-left: 0;
     }
@@ -17,7 +17,7 @@
     }
 
     #main-header a img {
-        width: 100px;
+        width: 109px;
         height: 150px;
     }
 
@@ -66,6 +66,7 @@
     .tab5 {
         grid-area: 3 / 1 / 4 / 4;
         display: flex;
+        justify-content: space-evenly;
     }
 
     .tab6 {
@@ -119,9 +120,14 @@
         font-size: 1.25em;
     }
 
+    #sub-box1 img {
+        width: 109px;
+        height: 150px;
+    }
+
     footer img {
         float: left;
-        width: 100px;
+        width: 150px;
         height: 150px;
     }
 
