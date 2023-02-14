@@ -1,0 +1,47 @@
+header, nav, main, footer {
+    max-width: 960px;
+    margin: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header {
+    border: 2px solid black;
+    text-align: center;
+    background-color: rgb(191, 211, 211);
+    font-size: 2rem;
+}
+
+body {
+    background-color: azure;
+    display: block;
+}
+
+main div {
+    border: 2px solid black;
+    text-align: center;
+}
+
+main div picture img {
+    display: block;
+    margin: auto;
+    margin-top: 15px;
+    border: 2px solid black;
+    text-align: center;
+}
+
+main div picture img[data-src] {
+    filter: blur(0.2em);
+}
+  
+main div picture img {
+    filter: blur(0em);
+    transition: filter 0.5s;
+}
+  
+
+footer {
+    border: 2px solid black;
+    text-align: center;
+    font-size: 2rem;
+}
