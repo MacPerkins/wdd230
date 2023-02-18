@@ -92,7 +92,7 @@ nav {
     justify-content: center;
 }
 
-.tab2, .tab3, .tab4, .tab5, .sub-tab1, .sub-tab2, .sub-tab3 {
+.tab2, .tab3, .tab4, .tab5, .sub-tab1, .sub-tab2, .sub-tab3, .demo-tab {
     background-color: #46B5E0;
     color: #030061;
     padding: 10px;
@@ -100,7 +100,7 @@ nav {
     box-shadow: 0 0 5px grey;
 }
 
-.tab3 div p, .tab3 h1, .tab5 h1, .tab5 h2, .tab5 div p, .tab4 h1, .tab4 p, .tab6 p {
+.tab3 div p, .tab3 h1, .tab5 h1, .tab5 h2, .tab5 div p, .tab4 h1, .tab4 p, .tab6 p, .demo-tab {
     text-align: center;
     color: #030061;
 }
@@ -174,7 +174,7 @@ nav {
     text-align: center;
 }
 
-.tab2 h1, .tab3 h1, .tab4 h1, .tab5 h1 {
+.tab2 h1, .tab3 h1, .tab4 h1, .tab5 h1, .demo-tab h1 {
     font-size: 1.25rem;
     text-shadow: 0 0 20px grey;
 }
@@ -194,6 +194,20 @@ nav {
 
 .tab2 {
     display: none;
+}
+
+/* ------Discover page specific CSS------ */
+
+.discover-layton {
+    background-color: #46B5E0;
+    color: #030061;
+    padding: 20px;
+    margin: 5px;
+    box-shadow: 0 0 5px grey;
+}
+
+main div .layton img {
+    width: 100%;
 }
 
 main h1 {

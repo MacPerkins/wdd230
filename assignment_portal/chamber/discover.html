@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layton City Chamber</title>
+    <link rel="fonts" href="https://fonts.googleapis.com/css2?family=Noto+Sans+Wancho&family=Play:wght@700&family=Source+Sans+Pro&display=swap">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <link rel="icon" href="favicon.ico">
+</head>
+<body>
+    <header>
+        <div id="main-header">
+            <a href="index.html" id="logo_link">
+                <img src='images/default1.webp' alt='Layton City Chamber logo'>
+                    <h1>Layton
+                        Chamber of Commerce
+                    </h1>
+            </a>
+            <div>
+                <a href="#" class="social-link"><img src="images/facebook.png" alt="Facebook Logo"></a>
+                <a href="#" class="social-link"><img src="images/twitter.png" alt="Twitter Logo"></a>
+            </div>
+            <nav>
+                <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
+                <ul id="primaryNav">
+                    <li><a href="discover.html">Discover</a></li>
+                    <li><a href="#">Directory</a></li>
+                    <li><a href="#">Join</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="current-date"></div>
+    </header>
+    <main>
+        <div class="home-grid1">
+            <div class="demo-tab">
+                <h1>Layton City</h1>
+                <p><strong>Population: </strong>83,291</p>
+                <p><strong>Persons per household: </strong>3.11</p>
+                <p><strong>Median income: </strong>$85,224</p>
+                <p><strong>Persons in poverty: </strong>7%</p>
+                <p><strong>Time between last user visit: </strong><span id="last-visit"></span></p>
+            </div>
+            <div class="discover-layton">
+                <h1>Layton Hills Mall</h1>
+                <p>With its many different vendors and businesses, the Layton Hills Mall bring exciting activities for mall goers; from an aquarium, to a food court, and a multitude of fun stores to check out, there is bound to be something fun for you to do here!</p>
+                <picture class="layton">
+                    <img class="hover" src="https://via.placeholder.com/1200x800" data-src="images/mall.jpg" alt="layton city mall" loading="lazy">
+                </picture>
+            </div>
+            <div class="discover-layton">
+                <h1>Layton Temple</h1>
+                <p>With its iconic and artistic architecture, the Layton Utah Temple of The Church of Jesus Christ of Latter-Day Saints is sure to attract visitors and siteseers. It's beautiful grounds and peaceful atmosphere are sure to attract those wanting to visit this wonderful piece of religious architecture.</p>
+                <picture class="layton">
+                    <img class="hover" src="https://via.placeholder.com/1200x800" data-src="images/temple.jpg" alt="layton city temple" loading="lazy">
+                </picture>
+            </div>
+            <div class="discover-layton">
+                <h1>Adams Canyon Trail</h1>
+                <p>Being a fun yet medium length hike, the Adams Canyon trail hike is bound to attract those looking for a scenic view and heart pumping experience. This trailhead ends with a beautiful waterfall that attracts photographers and siteseers.</p>
+                <picture class="layton">
+                    <img class="hover" src="https://via.placeholder.com/1200x800" data-src="images/adams-canyon.jpg" alt="waterfall" loading="lazy">
+                </picture>
+            </div>
+            <div class="discover-layton">
+                <h1>Layton Shorelands Preserve</h1>
+                <p>The Layton Shorelands Preserve is the perfect place for peaceful walking and picture taking. During the early spring and late fall the bugs leave the area and large flocks of water birds can be seen in the area. Perfect for a short visit with family and friends, the Shorelands Preserve is surely a place you'll visit again and again.</p>
+                <picture class="layton">
+                    <img class="hover" src="https://via.placeholder.com/1200x800" data-src="images/shorelands-preserve.jpg" alt="shorelands-preserve" loading="lazy">
+                </picture>
+            </div>
+            <div class="discover-layton">
+                <h1>Surf and Swim wave pool</h1>
+                <p>Being the largest wave pool in Layton and the surrounding cities, the Layton Surf N Swim wave pool is most frequented during the summer and fall months. A popular place for families of all ages, the Surf N Swim is also open during the winter and early spring as it has a bubble top that gets set up to preserve warmth in the wave pool.</p>
+                <picture class="layton">
+                    <img class="hover" src="https://via.placeholder.com/1200x800" data-src="images/surf_n_swim.jpg" alt="wave swimming pool" loading="lazy">
+                </picture>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div id="box1">
+            <div id="sub-box1">
+                <img src='images/default1.png' alt='Layton City Chamber logo'>
+                <p><strong>Layton Chamber of Commerce</strong></p>
+                <p>123 Random address rd, Layton UT</p>
+            </div>
+            <div id="sub-box2">
+                <p>info@laytoncc.com</p>
+                <p>+1(801) 123-4567</p>
+                <a href="#" id="location-map">Location Map</a>
+            </div>
+        </div>
+        <div id="box2">
+            <div id="small"><p>&copy; 2023 - Layton Chamber</p><p><strong>Matthew Perkins</strong></p><p>WDD 230 Project</p></div>
+            <p id="larger">&copy; 2023 - Layton Chamber | <strong>Matthew Perkins</strong> | WDD 230 Project |</p>
+            <div>
+                <p id="last-modified">Last Modified:</p>
+            </div>
+        </div>
+    </footer>
+    <script src="scripts/scripts.js"></script>
+    <script src="scripts/windchill.js"></script>
+    <script src="scripts/progressive_loading.js"></script>
+</body>
+</html>
