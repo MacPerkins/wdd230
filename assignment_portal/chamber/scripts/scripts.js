@@ -36,11 +36,15 @@ if (day == 1 && day == 2) {
 
 // Gets the last time site was visited, calculates difference between last visit date and current date.
 
-const lastDate = document.querySelector("#last-visit");
-var lastVisit = new Date();
-//read last visit from local storage
-//current visit is Date()
-// if last visit exists ? days=current-last : days=0
-// write days to the span
-localStorage.setItem("last-visit", lastVisit);
-var currentVisit = new Date();
+const lastVisit = localStorage.getItem('lastVisit');
+
+if (lastVisit !== null) {
+  const currentDate = new Date();
+  const diffTime = Math.abs(currentDate.getTime() - new Date(lastVisit).getTime());
+  const diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24));
+  const lastVisitSpan = document.querySelector('#last-visit');
+  lastVisitSpan.innerHTML = diffDays;
+}
+
+const currentDateString = new Date().toString();
+localStorage.setItem('lastVisit', currentDateString);
