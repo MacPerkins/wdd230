@@ -104,6 +104,10 @@
 		font-size: 1.5rem;
 	}
 
+	main div.form-tab h1 {
+		font-size: 2rem;
+	}
+
 	main div.form-tab {
 		margin-left: auto;
 		margin-right: auto;
