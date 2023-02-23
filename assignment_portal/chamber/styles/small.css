@@ -1,3 +1,5 @@
+/* ----------Header & Nav CSS---------- */
+
 nav button {
     width: 100%;
     margin: .2rem 2vw;
@@ -92,7 +94,9 @@ nav {
     justify-content: center;
 }
 
-.tab2, .tab3, .tab4, .tab5, .sub-tab1, .sub-tab2, .sub-tab3, .demo-tab, .form-tab, .table, .thankyou-tab {
+/* ----------Main & Body CSS---------- */
+
+.tab2, .tab3, .tab4, .tab5, .sub-tab1, .sub-tab2, .sub-tab3, .demo-tab, .form-tab, .thankyou-tab {
     background-color: #46B5E0;
     color: #030061;
     padding: 10px;
@@ -196,7 +200,12 @@ nav {
     display: none;
 }
 
-/* ------     Discover page specific CSS     ------ */
+header, nav, main, footer, .form-tab, .thankyou-tab {
+    max-width: 960px;
+    margin: 15px;
+}
+
+/* ------Discover Page CSS------ */
 
 .discover-layton {
     background-color: #46B5E0;
@@ -220,7 +229,7 @@ main, body {
 }
 
 
-/* ----------     Join Us CSS     ---------- */
+/* ----------Join Us CSS---------- */
 
 
 main div.form-tab {
@@ -241,7 +250,7 @@ form label.top, .bDescript {
     display: block;
     padding-top: 1.5rem;
     padding-bottom: .5rem;
-    padding-left: 25px;
+    padding-left: 5px;
     color: #030061;
     font-size: 1rem;
 }
@@ -284,17 +293,18 @@ form label.top input:required:valid {
     border-left: 6px solid #46B5E0;
 }
 
-/* ----------     Table CSS     ---------- */
+/* ----------Table CSS---------- */
 
-table {
-	margin: 15px auto;
+main div.form-tab div.table table {
+	margin-left: auto;
+    margin-right: auto;
 	border: thin solid black;
-	box-shadow: 0 0 15px rgb(77, 76, 76);
 	border-collapse: collapse;
     background-color: white;
     width: 100%;
     height: 100%;
     font-family: 'Play', sans-serif;
+    color: #030061;
 }
 
 tbody tr:nth-child(even) {
@@ -306,14 +316,14 @@ th {
     color: white;
     text-align: center;
     font-size: 1rem;
-    padding: .5rem;
+    padding: 3px;
     font-weight: bold;
     border: thin solid black;
     width: 100%;
 }
 
 td {
-    padding: .5rem;
+    padding: 3px;
     text-align: center;
     font-size: 1rem;
     border: thin solid black;
@@ -325,11 +335,7 @@ td {
     background-color: #434bb4d3;
 }
 
-
-header, nav, main, footer, .form-tab, .thankyou-tab {
-    max-width: 960px;
-    margin: 15px;
-}
+/* ----------Footer CSS---------- */
 
 footer {
 	display: flex;

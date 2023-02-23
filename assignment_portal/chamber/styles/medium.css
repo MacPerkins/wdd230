@@ -122,6 +122,14 @@
 
     /* ---------Join Us CSS--------- */
 
+    th {
+        padding: 1rem;
+    }
+
+    td {
+        padding: 1rem;
+    }
+
     footer {
         padding: 15px;
     }
