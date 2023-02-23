@@ -100,8 +100,59 @@
 		font-size: 2rem;
 	}
 
-	main h1 {
+	main h1, .table th {
 		font-size: 1.5rem;
+	}
+
+	main div.form-tab {
+		margin-left: auto;
+		margin-right: auto;
+		display: flex;
+	}
+
+	main div.form-tab form {
+		width: 50%;
+		margin-left: 20px;
+		margin-right: auto;
+	}
+
+	.thankyou-tab {
+		width: 100%;
+		height: 500px;
+		margin-top: 200px;
+		margin-bottom: 200px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.thankyou-tab h1 {
+		font-size: 2rem;
+		text-align: center;
+	}
+
+	.thankyou-tab p {
+		font-size: 1.75rem;
+	}
+
+	main div.form-tab .table {
+		margin-top: auto;
+		margin-bottom: auto;
+		width: 50%;
+		height: 100%;
+		border: none;
+		box-shadow: none;
+	}
+
+	main div.form-tab .table td {
+		font-size: 1.25rem;
+	}
+
+	.form-tab form label {
+		font-size: 1.5rem;
+	}
+
+	.form-tab form label input, .form-tab form label select {
+		font-size: 1.25rem;
 	}
 
 	footer {

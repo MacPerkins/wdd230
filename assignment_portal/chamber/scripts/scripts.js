@@ -34,17 +34,14 @@ if (day == 1 && day == 2) {
     document.querySelector(".tab2").style.display = "block";
 }
 
-// Gets the last time site was visited, calculates difference between last visit date and current date.
+// Gets the current date and time from a hidden field
 
-const lastVisit = localStorage.getItem('lastVisit');
+const date = new Date();
+const dateTime = now.toLocaleString();
 
-if (lastVisit !== null) {
-  const currentDate = new Date();
-  const diffTime = Math.abs(currentDate.getTime() - new Date(lastVisit).getTime());
-  const diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24));
-  const lastVisitSpan = document.querySelector('#last-visit');
-  lastVisitSpan.innerHTML = diffDays;
-}
-
-const currentDateString = new Date().toString();
-localStorage.setItem('lastVisit', currentDateString);
+let hiddenField = document.createElement("input");
+hiddenField.setAttribute("type", "hidden");
+hiddenField.setAttribute("id", "dateTime");
+hiddenField.setAttribute("name", "dateTime");
+hiddenField.setAttribute("value", dateTime);
+document.body.appendChild(hiddenField);
