@@ -135,6 +135,7 @@
 	}
 
 	main div.form-tab .table {
+		margin: 15px;
 		margin-top: auto;
 		margin-bottom: auto;
 		width: 50%;
