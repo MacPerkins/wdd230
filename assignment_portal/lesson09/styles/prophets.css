@@ -1,8 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik&family=Tilt+Warp&display=swap');
 
-header {
+header, footer {
     border: 2px solid black;
-    align-content: center;
     text-align: center;
     background-color: #0099FF;
     box-shadow: 0 5px 2px -2px grey;
@@ -59,4 +58,10 @@ main h2 {
 
 main p {
     font-size: 1.25rem;
+}
+
+footer {
+    font-size: 2rem;
+    padding: 20px;
+    margin-bottom: 0px;
 }
