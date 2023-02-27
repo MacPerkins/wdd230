@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&family=Tilt+Warp&display=swap');
+
+header {
+    border: 2px solid black;
+    align-content: center;
+    text-align: center;
+    background-color: #0099FF;
+    box-shadow: 0 5px 2px -2px grey;
+    margin: auto;
+    margin-bottom: 50px;
+    margin-top: 25px;
+    max-width: 2000px;
+    color: rgb(3, 20, 73);
+    font-family: 'Rubik', sans-serif;
+}
+
+header h1 {
+    font-size: 3rem;
+    font-weight: bolder;
+}
+
+main div {
+    margin: auto;
+    border: 2px solid rgb(3, 20, 73);
+    padding: 10px;
+    background-color: #75C5FA;
+    color: rgb(3, 20, 73);
+    max-width: 1800px;
+}
+
+main div.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+}
+
+main div.cards section{
+    border: 2px solid black;
+    margin: 15px;
+    padding: 20px;
+    text-align: center;
+    white-space: pre-line;
+    background-color: #62BDF9;
+    font-weight: bold;
+    font-family: 'Rubik', sans-serif;
+    box-shadow: 0 8px 2px -2px grey;
+}
+
+main div.cards section img {
+    width: 100%;
+    height: auto;
+    border: 3px solid black;
+    box-shadow: 0 8px 2px -2px grey;
+}
+
+main h2 {
+    font-size: 2rem;
+
+}
+
+main p {
+    font-size: 1.25rem;
+}
