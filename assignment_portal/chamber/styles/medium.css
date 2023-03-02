@@ -148,6 +148,26 @@
         margin: 3px;
     }
 
+    .list {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .list section div {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: none;
+        margin: 25px;
+        padding: 0.25rem;
+    }
+
+    .list section div p1, p2, p3, .list section div link {
+        font-size: 1.5rem;
+        font-family: 'Play', sans-serif;
+        margin-left: 2px;
+        padding-top: 5px;
+    }
+
         /* ----------Footer CSS---------- */
 
     footer {
