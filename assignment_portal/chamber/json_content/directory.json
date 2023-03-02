@@ -1,0 +1,61 @@
+{
+    "businesses": [
+      {
+        "name": "SeaQuest Utah",
+        "address": "1201 N Hill Field Rd #1072",
+        "phone": "801.544.4938",
+        "link": "https://visitseaquest.com/utah/",
+        "imagesrc": "images/directory-logos/seaquest.jpg"
+      },
+      {
+        "name": "Sunglass Hut",
+        "address": "2086 Layton Hills Pkwy Spc K2101",
+        "phone": "801.546.1924",
+        "link": "https://www.sunglasshut.com/",
+        "imagesrc": "images/directory-logos/sunglasshut.jpg"
+      },
+      {
+        "name": "American Rock Shop",
+        "address": "1201 N Hill Field Rd",
+        "phone": "801.448.3314",
+        "link": "https://americanrockshop.com/",
+        "imagesrc": "images/directory-logos/americanrockshop.jpg"
+      },      {
+        "name": "The Colosseum",
+        "address": "1201 N Hill Field Rd Suite 2024",
+        "phone": "801.609.7439",
+        "link": "https://the-colosseum.com/",
+        "imagesrc": "images/directory-logos/thecolosseum.jpg"
+      },      {
+        "name": "Cosset Bath And Body",
+        "address": "1201 N Hill Field Rd #1094",
+        "phone": "801.546.7441",
+        "link": "https://www.cossetbathandbody.com/",
+        "imagesrc": "images/directory-logos/cosset.jpg"
+      },      {
+        "name": "DownEast Basics",
+        "address": "1201 N Hill Field Rd #1030",
+        "phone": "801.544.6527",
+        "link": "https://www.downeastbasics.com/",
+        "imagesrc": "images/directory-logos/downeastbasics.jpg"
+      },      {
+        "name": "EntertainMART",
+        "address": "1201 N Hill Field Rd Ste 2054",
+        "phone": "801.544.3713",
+        "link": "https://entertainmart.com/",
+        "imagesrc": "images/directory-logos/entertainmart.jpg"
+      },      {
+        "name": "BoxLunch",
+        "address": "1201 N. Hill Field Rd",
+        "phone": "801.544.95814",
+        "link": "https://www.boxlunch.com/stores-details?StoreId=4606&distance=1.30",
+        "imagesrc": "images/directory-logos/boxlunch.jpg"
+      },      {
+        "name": "Eborn Books",
+        "address": "1201 N Hill Field Rd, Level 1 #1052",
+        "phone": "801.544.1804",
+        "link": "https://ebornbooks.com/locations/",
+        "imagesrc": "images/directory-logos/ebornbooks.jpg"
+      }
+    ]
+  }

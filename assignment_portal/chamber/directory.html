@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layton City Chamber</title>
+    <link rel="fonts" href="https://fonts.googleapis.com/css2?family=Noto+Sans+Wancho&family=Play:wght@700&family=Source+Sans+Pro&display=swap">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <link rel="icon" href="favicon.ico">
+</head>
+<body>
+    <header>
+        <div id="main-header">
+            <a href="index.html" id="logo_link">
+                <img src='images/default1.webp' alt='Layton City Chamber logo'>
+                    <h1>Layton
+                        Chamber of Commerce
+                    </h1>
+            </a>
+            <div>
+                <a href="#" class="social-link"><img src="images/facebook.png" alt="Facebook Logo"></a>
+                <a href="#" class="social-link"><img src="images/twitter.png" alt="Twitter Logo"></a>
+            </div>
+            <nav>
+                <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
+                <ul id="primaryNav">
+                    <li><a href="discover.html">Discover</a></li>
+                    <li><a href="#">Directory</a></li>
+                    <li><a href="join.html">Join</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="current-date"></div>
+    </header>
+    <main>
+        <div class="view-selection">
+            <button class="grid">Grid View</button>
+            <button class="list">List View</button>
+        </div>
+        <div class="cards"></div>
+    </main>
+    <footer>
+        <div id="box1">
+            <div id="sub-box1">
+                <img src='images/default1.png' alt='Layton City Chamber logo'>
+                <p><strong>Layton Chamber of Commerce</strong></p>
+                <p>123 Random address rd, Layton UT</p>
+            </div>
+            <div id="sub-box2">
+                <p>info@laytoncc.com</p>
+                <p>+1(801) 123-4567</p>
+                <a href="#" id="location-map">Location Map</a>
+            </div>
+        </div>
+        <div id="box2">
+            <div id="small"><p>&copy; 2023 - Layton Chamber</p><p><strong>Matthew Perkins</strong></p><p>WDD 230 Project</p></div>
+            <p id="larger">&copy; 2023 - Layton Chamber | <strong>Matthew Perkins</strong> | WDD 230 Project |</p>
+            <div>
+                <p id="last-modified">Last Modified:</p>
+            </div>
+        </div>
+    </footer>
+    <script src="scripts/scripts.js"></script>
+    <script src="scripts/directory_cards.js"></script>
+</body>
+</html>
