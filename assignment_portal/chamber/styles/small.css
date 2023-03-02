@@ -335,6 +335,87 @@ td {
     background-color: #434bb4d3;
 }
 
+/* ----------Directory CSS---------- */
+
+main div.view-selection {
+    align-items: center;
+    text-align: center;
+    margin: 15px;
+    padding: 15px;
+}
+
+button.grid-view, button.list-view {
+    padding: 1rem;
+	font-weight: 700;
+    font-family: 'Play', sans-serif;
+}
+
+main div.grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+	align-items: center;
+}
+
+main div.grid section {
+    margin: 5px;
+    padding: 10px;
+    border: 2px solid grey;
+    box-shadow: 0 0 7px grey;
+    background-color: white;
+}
+
+main div.grid section img {
+    width: 100%;
+    height: auto;
+}
+
+main div.grid div {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border-top: 2px solid black;
+}
+
+main div.grid div a {
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+}
+
+main div.grid div p1, main div.grid div p2, main div.grid div p3, main div.grid div link  {
+    display: block;
+    font-size: 1rem;
+    font-family: 'Play', sans-serif;
+    margin-bottom: 2px;
+    padding-top: 5px;
+}
+
+.list {
+	display: flex;
+	flex-direction: column;
+}
+
+.list section div {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	margin: 25px;
+	padding: 0.25rem;
+}
+
+.list section img {
+	display: none;
+}
+
+.list section div p1, p2, p3, .list section div link {
+	font-size: 1.5rem;
+    font-family: 'Play', sans-serif;
+    margin-left: 2px;
+    padding-top: 5px;
+}
+
+.list section:nth-child(even) {
+	background-color: #bed;
+}
+
 /* ----------Footer CSS---------- */
 
 footer {

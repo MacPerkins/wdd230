@@ -1,10 +1,11 @@
 const directoryUrl = 'json_content/directory.json';
 
 const displayBusinesses = (businesses) => {
-    const cards = document.querySelector('div.cards'); // select the output container element
+    const grid = document.querySelector('div.grid'); // select the output container element
 
     businesses.forEach((business) => {
         let card = document.createElement('section');
+        let div = document.createElement('div');
         let p1 = document.createElement('p1');
         let p2 = document.createElement('p2');
         let p3 = document.createElement('p3');
@@ -26,12 +27,13 @@ const displayBusinesses = (businesses) => {
         link.setAttribute('href', business.link);
 
         card.appendChild(portrait);
-        card.appendChild(p1);
-        card.appendChild(p2);
-        card.appendChild(p3);
-        card.appendChild(link);
+        div.appendChild(p1);
+        div.appendChild(p2);
+        div.appendChild(p3);
+        div.appendChild(link);
+        card.appendChild(div);
 
-        cards.appendChild(card);
+        grid.appendChild(card);
     });
 };
 
@@ -42,3 +44,20 @@ async function getBusinesses() {
 };
 
 getBusinesses();
+
+const gridbutton = document.querySelector(".grid-view");
+const listbutton = document.querySelector(".list-view");
+const display = document.querySelector("div.grid");
+
+
+gridbutton.addEventListener("click", () => {
+	display.classList.add("grid");
+	display.classList.remove("list");
+});
+
+listbutton.addEventListener("click", showList);
+
+function showList() {
+	display.classList.add("list");
+	display.classList.remove("grid");
+}

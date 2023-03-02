@@ -130,6 +130,26 @@
         padding: 1rem;
     }
 
+    /* ----------Directory CSS---------- */
+
+    main div.grid {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(200px, 1fr));
+        align-items: center;
+    }
+
+    main div.grid section {
+        margin: 25px;
+        padding: 15px;
+    }
+
+    main div.grid div p1, main div.grid div p2, main div.grid div p3, main div.grid div link  {
+        font-size: 1.5rem;
+        margin: 3px;
+    }
+
+        /* ----------Footer CSS---------- */
+
     footer {
         padding: 15px;
     }
