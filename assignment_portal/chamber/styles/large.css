@@ -83,8 +83,12 @@
 		bottom: 50px;
 	}
 
-	.tab2 h1, .tab3 h1, .tab4 h1, .tab5 h1, .demo-tab h1 {
+	.tab2 h1, .home-grid .tab3 h1, .tab4 h1, .tab5 h1, .demo-tab h1 {
         font-size: 2rem;
+    }
+
+	.tab3 figcaption {
+        font-size: 1.75rem;
     }
     
     .tab2 h2, .tab5 h2 {

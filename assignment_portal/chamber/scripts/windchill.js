@@ -1,4 +1,4 @@
-const temp = document.querySelector("#temp").innerHTML;
+const temp = document.querySelector("#current-temp").innerHTML;
 const windspeed = document.querySelector("#windspeed").innerHTML;
 let windChillFahrenheit = document.querySelector("#windChillFahrenheit");
 
@@ -7,8 +7,8 @@ if (temp <= 50 && windspeed > 3.0) {
 
     windChillFahrenheit = windChillFahrenheit.toFixed(2);
 
-    document.querySelector("#windChillFahrenheit").innerHTML = windChillFahrenheit;
+    document.querySelector("#windChillFahrenheit").innerHTML = `${windChillFahrenheit} F`;
 }
 else {
-    document.querySelector("#windChillFahrenheit").textContent = "N/A";
+    document.querySelector("#windChillFahrenheit").innerHTML = "N/A";
 }
