@@ -73,7 +73,7 @@ async function apiFetch() {
 
 function displayResults(weatherData) {
     currentTemp.innerHTML = `<strong>${weatherData.main.temp.toFixed(0)} &#176F</strong>`;
-    windSpeed.innerHTML = `<strong>${weatherData.wind.speed.toFixed(0)} mph</strong>`;
+    windSpeed.innerHTML = `${weatherData.wind.speed.toFixed(0)} mph`;
 
     const iconsrc = `https://openweathermap.org/img/w/${weatherData.weather[0].icon}.png`;
     let desc = weatherData.weather[0].description;
