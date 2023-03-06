@@ -168,15 +168,18 @@ nav {
     text-shadow: 0 0 20px grey;
 }
 
-.tab1 button{
+.tab1 a {
+    text-decoration: none;
     font-size: 1rem;
     font-weight: 1000;
     position: absolute;
     bottom: 15px;
     right: 15px;
     padding: 25px;
+    border: 2px solid black;
+    border-radius: 15px;
     background-color: #46c9e0;
-    border-radius: 25px;
+    color: black;
     box-shadow: 0 0 20px black;
     text-shadow: 0 0 20px grey;
 }

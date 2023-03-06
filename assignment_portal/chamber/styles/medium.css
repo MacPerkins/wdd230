@@ -57,7 +57,7 @@
         font-size: 2.5rem;
     }
 
-    .tab1 button {
+    .tab1 a {
         font-size: 1.5rem;
         right: 35px;
         bottom: 25px;
@@ -88,13 +88,17 @@
         font-size: 1.25rem;
     }
 
-    .tab6 button {
+    .tab6 a {
+        text-align: center;
+        text-decoration: none;
         margin-top: auto;
         font-size: 2rem;
         font-weight: 1000;
         padding: 25px;
-        border-radius: 25px;
+        border: 2px solid black;
+        border-radius: 15px;
         background-color: #46c9e0;
+        color: black;
         box-shadow: 0 0 20px black;
         text-shadow: 0 0 20px grey;
     }
