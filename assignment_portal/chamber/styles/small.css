@@ -475,7 +475,7 @@ footer p {
     margin: 3px;
 }
 
-footer #location-map {
+footer .location-map {
     text-decoration: none;
     color: rgb(0, 0, 0);
 }
