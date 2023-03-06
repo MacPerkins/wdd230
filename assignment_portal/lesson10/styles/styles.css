@@ -1,0 +1,46 @@
+body {
+    margin: 25px;
+}
+
+body h1 {
+    font-size: 2.5rem;
+    border-bottom: 2px solid black;
+    padding: 15px;
+    text-align: center;
+    background-color: antiquewhite;
+    box-shadow: 0 5px 2px -2px grey;
+}
+
+p {
+    font-size: 1.5rem;
+    padding: 15px;
+    border: 2px solid black;
+    text-align: center;
+    background-color: antiquewhite;
+    box-shadow: 0 5px 2px -2px grey;
+}
+
+figure h2 {
+    font-size: 1.75rem;
+    padding: 15px;
+    text-align: center;
+    text-shadow: 0 0 7px rgb(187, 187, 187);
+}
+
+figure {
+    font-size: 1.5rem;
+    border: 2px solid black;
+    text-align: center;
+    padding: 15px;
+    text-shadow: 0 0 7px rgb(187, 187, 187);
+    box-shadow: 0 5px 2px -2px grey;
+}
+
+figcaption {
+    padding: 15px;
+}
+
+figure img {
+    width: 10%;
+    height: auto;
+}
