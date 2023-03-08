@@ -113,7 +113,7 @@ nav {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 30%;
+    width: 100px;
 }
 
 .home-grid .tab3 h1 {
@@ -135,8 +135,8 @@ nav {
 .tab3 .weather img {
     margin-left: auto;
     margin-right: 10px;
-    width: 30%;
-    height: auto;
+    width: 100px;
+    height: 100px;
 }
 
 .tab3 .weather p {
