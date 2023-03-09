@@ -238,7 +238,6 @@ nav {
 }
 
 header, nav, main, footer, .form-tab, .thankyou-tab {
-    /* max-width: 960px; */
     margin: 0 auto;
 }
 
@@ -451,22 +450,6 @@ main div.grid div p1, main div.grid div p2, main div.grid div p3, main div.grid 
 .list section:nth-child(even) {
 	background-color: #cae9ff;
 }
-
-/* ----------Wireframe CSS---------- */
-
-/* .wireframe-grid {
-    display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-	align-items: center;
-    max-width: ;
-}
-
-.wireframe-grid div {
-    border: 2px solid black;
-    width: 100%;
-    height: auto;
-    align-items: center;
-} */
 
 /* ----------Footer CSS---------- */
 
