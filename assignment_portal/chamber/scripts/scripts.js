@@ -65,15 +65,16 @@ async function apiFetch() {
           throw Error(await response.text());
       }
     } catch (error) {
-        console.log(error);
+        console.log(`Error:${error}`);
     }
   }
   
   apiFetch();
 
 function displayResults(weatherData) {
-    currentTemp.innerHTML = `<strong>${weatherData.main.temp.toFixed(0)} &#176F</strong>`;
+    currentTemp.innerHTML = `${weatherData.main.temp.toFixed(0)}`;
     windSpeed.innerHTML = `${weatherData.wind.speed.toFixed(0)} mph`;
+
 
     const iconsrc = `https://openweathermap.org/img/w/${weatherData.weather[0].icon}.png`;
     let desc = weatherData.weather[0].description;
@@ -82,4 +83,22 @@ function displayResults(weatherData) {
     weatherIcon.setAttribute('src', iconsrc);
     weatherIcon.setAttribute('alt', descUp);
     captionDesc.textContent = descUp;
+
+    // const t = document.querySelector("#current-temp").innerHTML;
+  const t = weatherData.main.temp.toFixed(0);
+  const windspeed = weatherData.wind.speed.toFixed(0);
+  let windChillFahrenheit = document.querySelector("#windChillFahrenheit");
+
+  if (t <= 50 && windspeed >= 3.0) {
+      windChillFahrenheit = 35.74 + (0.6215*t) - (35.75*Math.pow(windspeed, 0.16)) + (0.4275*t*Math.pow(windspeed, 0.16));
+
+      windChillFahrenheit = windChillFahrenheit.toFixed(2);
+
+      document.querySelector("#windChillFahrenheit").innerHTML = `${windChillFahrenheit} F`;
+  }
+  else {
+      document.querySelector("#windChillFahrenheit").innerHTML = "N/A";
+  }
 }
+
+
