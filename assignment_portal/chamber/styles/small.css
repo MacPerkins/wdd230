@@ -24,7 +24,9 @@ nav ul li a {
 }
 
 nav a:hover {
-    background-color: #46b5e0;
+    background-color: #cae9ff;
+    border: 1px solid black;
+    border-radius: 15px 5px;
 }
 
 nav ul {
@@ -69,18 +71,18 @@ nav ul.open {
 
 #main-header, nav {
     display: flex;
-    background-color: #5965F9;
+    background-color: #577399;
     font-family: 'Play', sans-serif;
     padding: 5px;
 }
 
 header {
-    background-color: #5965F9;
+    background-color: #577399;
     font-family: 'Play', sans-serif;
 }
 
 .current-date {
-    background-color: #5965F9;
+    background-color: #577399;
     text-align: center;
     padding: 10px;
     border-top: 1px solid black;
@@ -96,8 +98,26 @@ nav {
 
 /* ----------Main & Body CSS---------- */
 
-.tab2, .tab3, .tab4, .tab5, .sub-tab1, .sub-tab2, .sub-tab3, .demo-tab, .form-tab, .thankyou-tab {
-    background-color: #46B5E0;
+.event-tab {
+    margin: 15px;
+    padding: 15px;
+    border: 2px solid black;
+    background-color: #cae9ff;
+    color: #030061;
+    font-size: 1.15rem;
+}
+
+.event-tab p {
+    text-align: center;
+    font-weight: bold;
+}
+
+.event-tab {
+    display: none;
+}
+
+.tab2, .tab3, .tab4, .tab5, .sub-tab1, .sub-tab2, .sub-tab3, .demo-tab, .form-tab, .tab6, .thankyou-tab {
+    background-color: #cae9ff;
     color: #030061;
     padding: 10px;
     margin: 5px;
@@ -178,10 +198,14 @@ nav {
     padding: 25px;
     border: 2px solid black;
     border-radius: 15px;
-    background-color: #46c9e0;
+    background-color: #577399;
     color: black;
     box-shadow: 0 0 20px black;
     text-shadow: 0 0 20px grey;
+}
+
+.tab1 a:hover {
+    border-radius: 45px 5px;
 }
 
 .tab1 img {
@@ -207,25 +231,21 @@ nav {
 .tab6 {
     display: none;
     grid-area: 4 / 1 / 5 / 4;
-    color: #030061;
-    background-color: #46B5E0;
-    padding: 10px;
-    margin: 5px;
 }
 
 .tab2 {
-    display: none;
+    display: block;
 }
 
 header, nav, main, footer, .form-tab, .thankyou-tab {
-    max-width: 960px;
-    margin: 15px;
+    /* max-width: 960px; */
+    margin: 0 auto;
 }
 
 /* ------Discover Page CSS------ */
 
 .discover-layton {
-    background-color: #46B5E0;
+    background-color: #577399;
     color: #030061;
     padding: 20px;
     margin: 5px;
@@ -292,7 +312,7 @@ form label.bDescript textarea {
 
 form input.submitBtn {
     border: none;
-    background-color: #030061;
+    background-color: #577399;
     color: white;
     border-radius: 1rem;
     padding: .75rem 1.5rem;
@@ -307,7 +327,7 @@ form label.top input:required {
 }
 
 form label.top input:required:valid {
-    border-left: 6px solid #46B5E0;
+    border-left: 6px solid #577399;
 }
 
 /* ----------Table CSS---------- */
@@ -325,11 +345,11 @@ main div.form-tab div.table table {
 }
 
 tbody tr:nth-child(even) {
-	background-color: #46b4e083;
+	background-color: #cae9ff;
 }
 
 th {
-    background-color: #3b42a5e8;
+    background-color: #577399;
     color: white;
     text-align: center;
     font-size: 1rem;
@@ -349,7 +369,7 @@ td {
 }
 
 .plans {
-    background-color: #434bb4d3;
+    background-color: #577399;
 }
 
 /* ----------Directory CSS---------- */
@@ -429,7 +449,7 @@ main div.grid div p1, main div.grid div p2, main div.grid div p3, main div.grid 
 }
 
 .list section:nth-child(even) {
-	background-color: #46b4e083;
+	background-color: #cae9ff;
 }
 
 /* ----------Wireframe CSS---------- */
@@ -456,7 +476,7 @@ footer {
 	align-items: center;
     text-align: center;
 	padding: 5px;
-    background-color: #5965F9;
+    background-color: #577399;
     font-family: 'Play', sans-serif;
 }
 
@@ -478,6 +498,10 @@ footer p {
 footer .location-map {
     text-decoration: none;
     color: rgb(0, 0, 0);
+}
+
+footer .location-map:hover {
+    border-bottom: 1px solid black;
 }
 
 footer #box div {

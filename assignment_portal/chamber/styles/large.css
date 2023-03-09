@@ -2,8 +2,8 @@
 
 	header, main, footer {
 		align-content: center;
-		max-width: 1800px;
-		margin: 15px auto;
+		/* max-width: 1800px; */
+		margin: 0 auto;
 	}
 
 	#main-header h1 {
@@ -36,6 +36,12 @@
 	#main-header a { order: 1; }
 	#main-header nav { order: 2;}
 	#main-header div { order: 3;}
+
+	.event-tab p {
+		margin-left: auto;
+		margin-right: auto;
+		font-size: 1.75rem;
+	}
 
 	.home-grid {
 		display: grid;
@@ -185,5 +191,4 @@
 		display: flex;
 		margin-top: 25px;
 	}
-    
 }

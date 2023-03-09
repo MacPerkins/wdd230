@@ -35,12 +35,17 @@
         font-size: 1.5em;
     }
 
+    .event-tab {
+        font-size: 1.5rem;
+    }
+
     .home-grid {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: repeat(5, 1fr);
         grid-column-gap: 5px;
         grid-row-gap: 5px;
+        background-color: #f2f4f3;
     }
 
     .tab1 {
@@ -97,10 +102,14 @@
         padding: 25px;
         border: 2px solid black;
         border-radius: 15px;
-        background-color: #46c9e0;
+        background-color: #577399;
         color: black;
         box-shadow: 0 0 20px black;
         text-shadow: 0 0 20px grey;
+    }
+
+    .tab6 a:hover {
+        border-radius: 45px 5px;
     }
 
     .tab6 p {
@@ -209,5 +218,4 @@
     footer #box2 #small {
         display: none;
     }
-
 }

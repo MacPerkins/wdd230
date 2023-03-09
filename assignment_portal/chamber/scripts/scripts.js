@@ -30,8 +30,8 @@ document.querySelector("#last-modified").textContent = `Last Modification: ${doc
 const d = new Date();
 let day = d.getDay();
 
-if (day == 1 && day == 2) {
-    document.querySelector(".tab2").style.display = "block";
+if (day == 1 || day == 2) {
+    document.querySelector(".event-tab").style.display = "block";
 }
 
 // Gets the current date and time from a hidden field
