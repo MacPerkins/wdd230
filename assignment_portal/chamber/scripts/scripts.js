@@ -84,7 +84,6 @@ function displayResults(weatherData) {
     weatherIcon.setAttribute('alt', descUp);
     captionDesc.textContent = descUp;
 
-    // const t = document.querySelector("#current-temp").innerHTML;
   const t = weatherData.main.temp.toFixed(0);
   const windspeed = weatherData.wind.speed.toFixed(0);
   let windChillFahrenheit = document.querySelector("#windChillFahrenheit");
