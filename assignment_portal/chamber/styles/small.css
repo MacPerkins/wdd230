@@ -116,7 +116,7 @@ nav {
     display: none;
 }
 
-.tab2, .tab3, .tab4, .tab5, .sub-tab1, .sub-tab2, .sub-tab3, .demo-tab, .form-tab, .tab6, .thankyou-tab {
+.tab2, .tab3, .tab4, .tab5, .demo-tab, .form-tab, .tab6, .thankyou-tab {
     background-color: #cae9ff;
     color: #030061;
     padding: 10px;
@@ -124,7 +124,7 @@ nav {
     box-shadow: 0 0 5px grey;
 }
 
-.tab3 div p, .tab3 h2, .tab5 h2, .tab5 h2, .tab5 div p, .tab4 h2, .tab4 p, .tab6 p, .demo-tab, .thankyou-tab {
+.tab3 div p, .tab3 h2, .tab5 h2, .tab5 h2, .tab5 h3, .tab5 div p, .tab4 h2, .tab4 p, .tab6 p, .demo-tab, .thankyou-tab {
     text-align: center;
     color: #030061;
 }
@@ -133,7 +133,9 @@ nav {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 100px;
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
 }
 
 .home-grid .tab3 h2 {
@@ -167,7 +169,14 @@ nav {
     font-size: 2rem;
 }
 
-.sub-tab3 {
+#sub-tab1, #sub-tab2, #sub-tab3 {
+    text-align: center;
+    border: 2px solid grey;
+    padding: 15px;
+    margin: 15px;
+}
+
+#sub-tab3 {
     display: none;
 }
 

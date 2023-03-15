@@ -48,6 +48,10 @@
         background-color: #f2f4f3;
     }
 
+    .tab-img {
+        width: 75%;
+    }
+
     .tab1 {
         grid-area: 1 / 1 / 2 / 4;
     }

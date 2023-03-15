@@ -69,12 +69,16 @@
 		object-position: 25% 0;
 	}
 
-	.sub-tab1, .sub-tab2, .sub-tab3 {
+	#sub-tab1, #sub-tab2, #sub-tab3 {
 		display: flex;
 		flex-direction: column;
 		flex: 1;
 		margin: 0;
 	}
+
+	.tab-img {
+        width: 50%;
+    }
 
 	.tab1 h1  {
 		font-size: 2rem;

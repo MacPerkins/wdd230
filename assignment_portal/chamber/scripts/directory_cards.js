@@ -1,7 +1,7 @@
 const directoryUrl = 'json_content/directory.json';
 
 const displayBusinesses = (businesses) => {
-    const grid = document.querySelector('div.grid'); // select the output container element
+    const grid = document.querySelector('div.grid'); // Select the output container element
 
     businesses.forEach((business) => {
         let card = document.createElement('section');
