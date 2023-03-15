@@ -460,6 +460,45 @@ main div.grid div p1, main div.grid div p2, main div.grid div p3, main div.grid 
 	background-color: #cae9ff;
 }
 
+/* ----------Location Map/Wireframes CSS---------- */
+
+.location-map-div {
+    display: flex;
+    flex-direction: column;
+    margin: 3rem;
+    padding: 3rem;
+    border: 2px solid black;
+}
+
+.location-map-div img {
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    box-shadow: 0 0 14px grey;
+}
+
+.wireframe-grid {
+    display: flex;
+    flex-direction: column;
+    margin: 3rem;
+    padding: 3rem;
+    border: 2px solid black;
+}
+
+.wireframe-grid img {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+}
+
+.wireframe-grid h2, .location-map-div h2 {
+    text-align: center;
+    margin: 2rem;
+    padding: 2rem;
+    border: 2px solid grey;
+    background-color: rgb(185, 185, 185);
+}
+
 /* ----------Footer CSS---------- */
 
 footer {
