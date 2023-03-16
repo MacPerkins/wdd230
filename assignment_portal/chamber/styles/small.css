@@ -124,7 +124,7 @@ nav {
     box-shadow: 0 0 5px grey;
 }
 
-.tab3 div p, .tab3 h2, .tab5 h2, .tab5 h2, .tab5 h3, .tab5 div p, .tab4 h2, .tab4 p, .tab6 p, .demo-tab, .thankyou-tab {
+.tab3 div p, .tab3 h2, .tab5 h2, .tab5 h2, .tab5 h3, .tab5 div p, .tab4 h2, .tab4 p, .tab6 p, .demo-tab, .thankyou-tab h1 {
     text-align: center;
     color: #030061;
 }
@@ -224,7 +224,7 @@ nav {
 }
 
 
-.tab2, .tab2 h2, .tab2 p, .tab2 a {
+.tab2, .tab2 h2, .tab2 p, .tab2 a, .thankyou-tab p {
     text-align: center;
 }
 
@@ -252,16 +252,30 @@ header, nav, main, footer, .form-tab, .thankyou-tab {
 
 /* ------Discover Page CSS------ */
 
-.discover-layton {
-    background-color: #cae9ff;
-    color: #030061;
-    padding: 20px;
-    margin: 5px;
-    box-shadow: 0 0 5px grey;
+.demo-tab {
+    max-width: 2500px;
+    margin: 3rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 3rem;
 }
 
-main div .layton img {
-    width: 100%;
+main div.discover-layton {
+    background-color: #cae9ff;
+    color: #030061;
+    padding: 3rem;
+    margin: 2rem;
+    box-shadow: 0 0 5px grey;
+    max-width: 2250px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+main div.discover-layton img {
+    margin: 3rem;
+    width: 75%;
+    height: auto;
 }
 
 main h1, main h2 {
@@ -291,7 +305,7 @@ form fieldset {
     box-shadow: 0 0 15px grey;
 }
 
-form label.top, .bDescript {
+form label.top, .bDescript, .request {
     display: block;
     padding-top: 1.5rem;
     padding-bottom: .5rem;
@@ -300,7 +314,7 @@ form label.top, .bDescript {
     font-size: 1rem;
 }
 
-form label.top input, form label.top select, form label.bDescript textarea {
+form label.top input, form label.top select, form label.bDescript textarea, form label.request textarea {
     -webkit-appearance: none;
     display: block;
     font-size: 1.25rem;
@@ -313,7 +327,7 @@ form label.top input, form label.top select, form label.bDescript textarea {
     background-color: #46b4e071;
 }
 
-form label.bDescript textarea {
+form label.bDescript textarea, form label.request textarea {
     vertical-align: top;
     height: 5rem;
 }
@@ -497,6 +511,50 @@ main div.grid div p1, main div.grid div p2, main div.grid div p3, main div.grid 
     padding: 2rem;
     border: 2px solid grey;
     background-color: rgb(185, 185, 185);
+}
+
+/* ----------Contact CSS---------- */
+
+.contact-banner, .contact div h2, .contact .contact-info h2 {
+    text-align: center;
+    padding: 1.5rem;
+    background-color: #577399;
+    border: 1px solid grey;
+    border-radius: 5px 5px;
+    max-width: 1700px;
+    margin: 3rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contact {
+    margin: 2rem;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: white;
+    padding: .75rem;
+}
+
+.contact div.form h2 {
+    border-radius: 100px 25px;
+}
+
+.contact div.form form {
+    padding: 1rem;
+}
+
+.contact .contact-info h2 {
+    border-radius: 25px 100px;
+}
+
+.contact-info div {
+    padding: 2rem;
+    font-family: 'Play', sans-serif;
+}
+
+.thankyou-tab {
+    max-width: 1500px;
+    margin: 3rem;
 }
 
 /* ----------Footer CSS---------- */

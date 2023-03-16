@@ -157,16 +157,20 @@
 		box-shadow: none;
 	}
 
-	main div.form-tab .table td {
+	main div.form-tab .table td, main div.contact div form {
 		font-size: 1.25rem;
 	}
 
-	.form-tab form label {
+	.form-tab form label, .contact div form label {
 		font-size: 1.5rem;
 	}
 
-	.form-tab form label input, .form-tab form label select {
+	.form-tab form label input, .form-tab form label select, .contact div form label select {
 		font-size: 1.25rem;
+	}
+
+	.contact {
+		display: flex;
 	}
 
 	footer {
