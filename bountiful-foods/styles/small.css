@@ -41,6 +41,9 @@ body {
 .header-top img, footer .footer1 img {
     width: 125px;
     height: auto;
+}
+
+.header-top img, .header-top a {
     margin-top: auto;
     margin-bottom: auto;
 }
