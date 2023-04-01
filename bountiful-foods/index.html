@@ -5,7 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bountiful Foods</title>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Ubuntu+Condensed&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/small.css">
     <link rel="stylesheet" href="styles/medium.css">
@@ -16,23 +15,36 @@
     <header>
         <div class="header-top">
             <a href="index.html" id="logo_link"><img src='images/logo.webp' alt='Layton City Chamber logo'></a>
-            <ul>
-                <li><a href="drinks.html">Fresh Drinks</a></li>
-                <li><a href="about-us.html">About Us</a></li>
-            </ul>
+            <nav>
+                <ul>
+                    <li><a href="drinks.html">Fresh Drinks</a></li>
+                    <li><a href="about-us.html">About Us</a></li>
+                </ul>
+            </nav>
         </div>
     </header>
     <main>
         <div class="drink-hero">
-            <img src="#" alt="Health Drink">
-            <div class="drink-box">
-                <h1>Create your fresh, healthy drink that won't make you feel guilty an hour later.</h1>
-                <button type="button" href="drinks">Drink to Health</button>
-            </div>
+            <h1>Make a custom, fresh, and healthy drink. Enjoy!</h1>
+            <a href="fresh.html">Create Now</a>
+            <picture class="hero">
+                <img class="hover" src="https://via.placeholder.com/1200x800" data-src="images/hero-large.jpg" alt="Healthy Drinks" loading="lazy">
+            </picture>
         </div>
         <div class="business-info">
             <h2>Connect With Us</h2>
-            <p>Contact info</p>
+            <div>
+                <h2>Address</h2>
+                <p>Bountinful Foods</p>
+                <p>123 N 456 W Random Rd</p>
+                <p>Carlsbad, Californa</p>
+            </div>
+            <div>
+                <h2>Phone</h2>
+                <p>1 800 123.456.7890</p>
+                <h2>Email</h2>
+                <p>bountifulfoods@fake.email.com</p>
+            </div>
         </div>
         <div class="city-spotlight">
             <h2>Visit: Vista, CA</h2>
@@ -54,7 +66,7 @@
         </div>
     </main>
     <footer>
-        <div>
+        <div class="footer-top">
             <div class="footer1">
                 <img src="images/logo.webp" alt="Bountiful Foods Logo">
             </div>
@@ -70,5 +82,6 @@
         </div>
     </footer>
     <script src="scripts/scripts.js"></script>
+    <script src="scripts/lazy-loader.js"></script>
 </body>
 </html>
