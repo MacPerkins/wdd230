@@ -18,50 +18,68 @@
             <nav>
                 <ul>
                     <li><a href="drinks.html">Fresh Drinks</a></li>
-                    <li><a href="about-us.html">About Us</a></li>
+                    <li><a href="aboutus.html">About Us</a></li>
                 </ul>
             </nav>
         </div>
     </header>
     <main>
         <div class="drink-hero">
-            <h1>Make a custom, fresh, and healthy drink. Enjoy!</h1>
-            <a href="fresh.html">Create Now</a>
+            <h1>Enjoy a custom, fresh, and healthy drink.
+                Custom drink count:
+                <span class="drink-count">1</span>
+            </h1>
+            <a href="drinks.html">Create Now</a>
             <picture class="hero">
-                <img class="hover" src="https://via.placeholder.com/1200x800" data-src="images/hero-large.jpg" alt="Healthy Drinks" loading="lazy">
+                <img src="https://via.placeholder.com/1200x800" data-src="images/hero-large.jpg" alt="Healthy Drinks" loading="lazy">
             </picture>
         </div>
-        <div class="business-info">
-            <h2>Connect With Us</h2>
-            <div>
-                <h2>Address</h2>
-                <p>Bountinful Foods</p>
-                <p>123 N 456 W Random Rd</p>
-                <p>Carlsbad, Californa</p>
-            </div>
-            <div>
-                <h2>Phone</h2>
-                <p>1 800 123.456.7890</p>
-                <h2>Email</h2>
-                <p>bountifulfoods@fake.email.com</p>
-            </div>
-        </div>
-        <div class="city-spotlight">
-            <h2>Visit: Vista, CA</h2>
-            <p>Info about Vista CA</p>
-        </div>
-        <div class="weather-tab">
-            <h2>Current Weather in: Carlsbad, CA</h2>
-            <figure>
+        <div class="grid">
+            <div class="business-info">
+                <h2>Connect With Us</h2>
                 <div>
-                    <img id="weather-icon" src="#" alt="#">
-                    <p><span id="current-temp"></span> &deg;F</p>
+                    <h2>Address</h2>
+                    <p>Bountinful Foods</p>
+                    <p>123 N 456 W Random Rd</p>
+                    <p>Carlsbad, Californa</p>
                 </div>
-                <p>Today it is <figcaption></figcaption></p>
-            </figure>
-            <div>
-                <p><strong>Wind Speed: </strong><span id="windspeed">15</span></p>
-                <p><strong>Wind Chill: </strong><span id="windChillFahrenheit">N/A</span></p>
+                <div>
+                    <h2>Phone</h2>
+                    <p>1 800 123.456.7890</p>
+                    <h2>Email</h2>
+                    <p>bountifulfoods@fake.email.com</p>
+                </div>
+            </div>
+            <div class="city-spotlight">
+                <h2>Visit: Vista, CA</h2>
+                <p>Vista is a city located in San Diego County, California, United States. It is situated about 7 miles inland from the Pacific Ocean and is home to approximately 101,000 people. The city covers an area of about 18.7 square miles and has a Mediterranean climate characterized by warm, dry summers and mild winters.
+                    
+                    Vista is known for its scenic views, with rolling hills and valleys surrounding the city. It is also home to several parks, including the 14-acre Buena Vista Park, which features walking trails, picnic areas, and a playground.</p>
+                <p>Vista has a diverse economy with a mix of small businesses and large corporations. Major employers in the area include the Vista Unified School District, Datron World Communications, and DJO Global. The city has a vibrant downtown area with numerous restaurants, shops, and cultural attractions.
+                    
+                    Vista is also known for its annual events, such as the Vista Strawberry Festival, which attracts thousands of visitors each year. Overall, Vista offers a high quality of life for its residents, with a strong sense of community and a range of recreational opportunities.</p>
+            </div>
+            <div class="weather-tab">
+                <h2>Current Weather in: Carlsbad, CA</h2>
+                <figure>
+                    <div>
+                        <img id="weather-icon" src="#" alt="#">
+                        <p><span id="current-temp"></span> &deg;F</p>
+                    </div>
+                    <p>Today it is <figcaption></figcaption></p>
+                </figure>
+                <div class="wind-tab">
+                    <p><strong>Wind Speed: </strong><span id="windspeed">15</span></p>
+                    <p><strong>Wind Chill: </strong><span id="windChillFahrenheit">N/A</span></p>
+                </div>
+                <div class="temp-forecast">
+                    <h2>Three Day Tempurature Forecast</h2>
+                    <div>
+                        <p>Day 1: <span id="day1"></span>&deg;F</p>
+                        <p>Day 2: <span id="day2"></span>&deg;F</p>
+                        <p>Day 3: <span id="day3"></span>&deg;F</p>
+                    </div>
+                </div>
             </div>
         </div>
     </main>
@@ -83,5 +101,6 @@
     </footer>
     <script src="scripts/scripts.js"></script>
     <script src="scripts/lazy-loader.js"></script>
+    <script src="scripts/weather.js"></script>
 </body>
 </html>

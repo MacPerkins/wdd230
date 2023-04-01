@@ -1,3 +1,30 @@
 @media only screen and (min-width: 650px) {
+    .business-info, .city-spotlight, .weather-tab {
+        margin: 2rem;
+    }
 
+    header li a {
+        font-size: 2rem;
+    }
+
+    .drink-hero h1 {
+        max-width: 300px;
+        max-height: 125px;
+    }
+
+    .drink-hero h1, .drink-hero a, .business-info h2, .city-spotlight h2, .weather-tab h2, .weather-tab figure div p {
+        font-size: 1.75rem;
+    }
+
+    .weather-tab figure, .wind-tab p, .temp-forecast div {
+        font-size: 1.5rem;
+    }
+
+    .weather-tab figure div p {
+        font-size: 3rem;
+    }
+
+    .city-spotlight p, .business-info p, footer {
+        font-size: 1.35rem;
+    }
 }

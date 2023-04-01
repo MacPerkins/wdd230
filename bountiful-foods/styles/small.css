@@ -11,6 +11,8 @@ body {
     display: flex;
     justify-items: center;
     background-color: #FFE8D6;
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
 
 .header-top nav {
@@ -38,6 +40,10 @@ body {
     color: #9c9c85;
 }
 
+.header-top nav ul li a:hover {
+    color: #DDBEA9;
+}
+
 .header-top img, footer .footer1 img {
     width: 125px;
     height: auto;
@@ -54,19 +60,23 @@ body {
 
 .drink-hero h1 {
     max-width: 200px;
+    max-height: 100px;
     text-align: center;
     font-family: 'Playfair Display', sans-serif;
     font-size: 1.25rem;
     position: absolute;
-    width: 100%;
-    top: 10px;
-    left: 25px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
     padding: .75rem;
-    border: 1px solid #A5A58D;
+    border: 3px solid #A5A58D;
     border-radius: 5px 15px;
     background-color: #FFE8D6;
     color: #9c9c85;
     font-weight: bold;
+    white-space: pre-line;
 }
 
 .drink-hero img {
@@ -82,7 +92,7 @@ body {
     position: absolute;
     bottom: 15px;
     right: 15px;
-    border: 1px solid #A5A58D;
+    border: 3px solid #A5A58D;
     border-radius: 15px 0px;
     background-color: #FFE8D6;
     color: #A5A58D;
@@ -109,6 +119,55 @@ header, nav, main, footer {
     font-family: 'Playfair Display', sans-serif;
     font-size: 1.25rem;
     color: #9c9c85;
+}
+
+.business-info h2 {
+    text-align: center;
+}
+
+.business-info div h2 {
+    text-align: left;
+}
+
+.city-spotlight p {
+    white-space: pre-line;
+}
+
+.weather-tab, .weather-tab h2, .city-spotlight h2 {
+    text-align: center;
+}
+
+.weather-tab img {
+    width: 30%;
+}
+
+.weather-tab figure {
+    text-align: center;
+    margin: 1rem;
+}
+
+.weather-tab figure div p {
+    font-size: 1.5rem;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.weather-tab figure div {
+    display: flex;
+    justify-content: space-around;
+}
+.wind-tab {
+    display: flex;
+    justify-content: space-around;
+}
+
+.temp-forecast {
+    border-top: 2px solid #9c9c85;
+}
+
+.temp-forecast div {
+    display: flex;
+    justify-content: space-around;
 }
 
 footer {
