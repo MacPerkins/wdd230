@@ -7,7 +7,7 @@ const day2Temp = document.querySelector("#day2");
 const day3Temp = document.querySelector("#day3");
 
 const currentUrl = 'https://api.openweathermap.org/data/2.5/weather?lat=33.1581&lon=-117.3506&units=imperial&appid=712d41b63fbf8971f61376c9e8ac70a6';
-const dayTempsUrl = 'http://api.openweathermap.org/data/2.5/forecast/daily?lat=33.1581&lon=-117.3506&cnt=3&units=imperial&appid=712d41b63fbf8971f61376c9e8ac70a6';
+const dayTempsUrl = 'https://api.openweathermap.org/data/2.5/forecast/daily?lat=33.1581&lon=-117.3506&cnt=3&units=imperial&appid=712d41b63fbf8971f61376c9e8ac70a6';
 
 async function apiFetch() {
   try {
