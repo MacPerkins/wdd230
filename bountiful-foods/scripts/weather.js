@@ -2,34 +2,38 @@ const currentTemp = document.querySelector('#current-temp');
 const weatherIcon = document.querySelector('#weather-icon');
 const windSpeed = document.querySelector('#windspeed');
 const captionDesc = document.querySelector('figcaption');
+const day1Temp = document.querySelector("#day1");
+const day2Temp = document.querySelector("#day2");
+const day3Temp = document.querySelector("#day3");
 
 const currentUrl = 'https://api.openweathermap.org/data/2.5/weather?lat=33.1581&lon=-117.3506&units=imperial&appid=712d41b63fbf8971f61376c9e8ac70a6';
-// const dayTemps = 'http://api.openweathermap.org/data/2.5/forecast/daily?q=Carlsbad,California&cnt=3&units=imperial&appid=8b0dd774d61d1b25b79bcec1e0605199';
+const dayTempsUrl = 'http://api.openweathermap.org/data/2.5/forecast/daily?lat=33.1581&lon=-117.3506&cnt=3&units=imperial&appid=712d41b63fbf8971f61376c9e8ac70a6';
 
 async function apiFetch() {
-    try {
-      const response = await fetch(currentUrl);
-    //   const response1 = await fetch(dayTemps);
-      if (response.ok) {
-        const data = await response.json();
-        displayResults(data);
-      } else {
-          throw Error(await response.text());
-      }
-    //   if (response1.ok) {
-    //     const dayData = await response1.json();
-    //     displayResults1(data);
-    //   } else {
-    //       throw Error(await response1.text());
-    //   }
-    } catch (error) {
-        console.log(`Error:${error}`);
+  try {
+    const currentResponse = await fetch(currentUrl);
+    if (currentResponse.ok) {
+      const currentData = await currentResponse.json();
+      displayCurrentTemp(currentData);
+    } else {
+      throw Error(await currentResponse.text());
     }
-  }
-  
-  apiFetch();
 
-function displayResults(weatherData) {
+    const forecastResponse = await fetch(dayTempsUrl);
+    if (forecastResponse.ok) {
+      const forecastData = await forecastResponse.json();
+      displayForecast(forecastData);
+    } else {
+      throw Error(await forecastResponse.text());
+    }
+  } catch (error) {
+    console.log(`Error: ${error}`);
+  }
+}
+  
+apiFetch();
+
+function displayCurrentTemp(weatherData) {
     currentTemp.innerHTML = `${weatherData.main.temp.toFixed(0)}`;
     windSpeed.innerHTML = `${weatherData.wind.speed.toFixed(0)} mph`;
 
@@ -56,4 +60,10 @@ function displayResults(weatherData) {
     else {
         document.querySelector("#windChillFahrenheit").innerHTML = "N/A";
     }
+}
+
+function displayForecast(weatherData) {
+  day1Temp.innerHTML = `${weatherData.list[0].temp.day.toFixed(0)} F`;
+  day2Temp.innerHTML = `${weatherData.list[1].temp.day.toFixed(0)} F`;
+  day3Temp.innerHTML = `${weatherData.list[2].temp.day.toFixed(0)} F`;
 }

@@ -193,3 +193,119 @@ footer div.footer-top {
 .footer2 img {
     width: 50px;
 }
+
+/* -----About Us----- */
+
+main .about-us {
+    border: 2px solid #9c9c85;
+    margin: 2rem;
+    padding: 2rem;
+    font-size: 1.25rem;
+    white-space: pre-line;
+}
+
+.about-us h1, .map h2 {
+    font-size: 2rem;
+    font-family: 'Playfair Display', sans-serif;
+}
+
+.about-us-header {
+    border-top: 2px solid #9c9c85;
+    margin: 1rem;
+    padding: 1rem;
+    text-align: center;
+}
+
+.map h2 {
+    border-top: none;
+    text-align: left;
+}
+
+.map {
+    display: flex;
+    margin: 1rem;
+    padding: 1rem;
+    justify-content: space-around;
+}
+
+.map p {
+    font-size: 1.25rem;
+}
+
+.map .maps-display {
+    text-align: center;
+    padding: 2rem;
+}
+
+.map iframe {
+    width: 100%;
+    height: 100%;
+}
+
+/* -----Fresh Drinks----- */
+
+main fieldset {
+    margin: 2rem auto;
+}
+
+main form h1 {
+    text-align: center;
+}
+
+fieldset {
+    border: 2px solid #9c9c85;
+    margin: 1rem;
+    padding: 1rem;
+    background-color: #FFE8D6;
+    display: flex;
+    flex-direction: column;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+}
+
+label, textarea, select {
+    font-size: 1.75rem;
+    font-weight: bold;
+    margin: 0rem;
+    padding: 1rem;
+    padding-left: 0;
+}
+
+input {
+    width: 75%;
+    height: auto;
+    padding: 1rem;
+}
+
+form label input:required {
+    border-right: 5px solid red;
+}
+
+form label input:required:valid {
+    border-right: 5px solid rgb(13, 243, 13);
+}
+
+.instructions {
+    margin: 1rem;
+    margin-left: 0;
+    padding-left: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+main .submitBtn {
+    font-size: 2rem;
+    text-align: center;
+    margin: 2rem auto;
+    font-weight: bold;
+}
+
+.output {
+    margin: 2rem;
+    padding: 2rem;
+    font-size: 1.5rem;
+    background-color: #FFE8D6;
+}

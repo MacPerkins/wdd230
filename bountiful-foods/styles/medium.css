@@ -27,4 +27,15 @@
     .city-spotlight p, .business-info p, footer {
         font-size: 1.35rem;
     }
+
+    /* -----Fresh Drinks----- */
+
+    
+
+    /* -----About Us----- */
+
+    .map iframe {
+        width: 350px;
+        height: 450px;
+    }
 }

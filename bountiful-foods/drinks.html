@@ -24,32 +24,33 @@
         </div>
     </header>
     <main>
-        <form class="drink-form" onsubmit="outputForm(); return false;">
-            <h1>Join Our Chamber!</h1>
+        <form class="drink-form">
+            <h1>Create Your Own Fresh, Organic Drink Now!</h1>
             <fieldset>
-                <label class="info">First Name: <input type="text" name="fname" required></label>
-                <label class="info">Email: <input type="email" name="email" placeholder="someone@gmail.com" required></label>
-                <label class="info">Phone: <input type="tel" name="phone" placeholder="1235551234" required></label>
+                <label class="info">*First Name: <input type="text" name="fname" required></label>
+                <label class="info">*Email: <input type="email" name="email" placeholder="someone@gmail.com" required></label>
+                <label class="info">*Phone: <input type="tel" name="phone" placeholder="1235551234" required></label>
 
-                <label for="fruit1">Fruit Option 1: </label>
-                <select id="fruit1" name="fruit1">
+                <label for="fruit1">*Fruit Option 1: </label>
+                <select id="fruit1" name="fruit1" required>
                   <option value="">Choose a fruit option</option>
                 </select><br>
               
-                <label for="fruit2">Fruit Option 2: </label>
+                <label for="fruit2">*Fruit Option 2: </label>
                 <select id="fruit2" name="fruit2">
                   <option value="">Choose a fruit option</option>
                 </select><br>
               
-                <label for="fruit3">Fruit Option 3: </label>
+                <label for="fruit3">*Fruit Option 3: </label>
                 <select id="fruit3" name="fruit3">
                   <option value="">Choose a fruit option</option>
                 </select><br>
 
                 <label class="instructions">Any Special Instructions: <textarea name="instructions"></textarea></label>
-                <input type="submit" value="Create Order" onclick="submitForm();" class="submitBtn">
+                <input type="button" value="Create Order" onclick="outputForm();" class="submitBtn">
             </fieldset>
         </form>
+        <div class="output"></div>
     </main>
     <footer>
         <div class="footer-top">
@@ -67,6 +68,6 @@
             <p id="last-modified">Last Modified:</p>
         </div>
     </footer>
-    <script src="scripts/scripts.js"></script>
+    <script src="scripts/drink-form.js"></script>
 </body>
 </html>

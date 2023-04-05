@@ -76,4 +76,25 @@
         font-size: 2rem;
     }
 
+    /* -----Fresh Drinks----- */
+
+    fieldset {
+        max-width: 50%;
+    }
+
+    form label, form select {
+        max-width: 980px;
+    }
+
+    /* -----About Us----- */
+
+    main .map h2, main h2 {
+        font-size: 2rem;
+    }
+
+    .map iframe {
+        width: 550px;
+        height: 550px;
+    }
+
 }
